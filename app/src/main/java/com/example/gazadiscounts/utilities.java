@@ -9,6 +9,7 @@ import com.android.volley.toolbox.StringRequest;
 import java.io.ByteArrayOutputStream;
 
 public class utilities {
+    public static String ip = "http://192.168.1.103/api/";
 
     public static String dispayurl = "http://192.168.1.103/api/product_display";
     public static String createurl = "http://192.168.1.103/api/product_control";

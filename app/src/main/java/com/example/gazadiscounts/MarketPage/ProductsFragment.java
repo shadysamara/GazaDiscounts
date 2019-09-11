@@ -75,7 +75,7 @@ public class ProductsFragment extends Fragment {
 
     public void getJSONString(){
 
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, utilities.dispayurl,
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, utilities.ip+"product_display",
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {

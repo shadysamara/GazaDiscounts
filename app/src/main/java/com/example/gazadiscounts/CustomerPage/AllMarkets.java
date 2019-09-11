@@ -24,6 +24,7 @@ import com.example.gazadiscounts.adapters.productAdapter;
 import com.example.gazadiscounts.app.AppController;
 import com.example.gazadiscounts.models.Market;
 import com.example.gazadiscounts.models.Product;
+import com.example.gazadiscounts.utilities;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -63,7 +64,7 @@ public class AllMarkets extends Fragment {
 
     public void getJSONString() {
         CustomProgress.getInstance();
-        JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, "http://192.168.1.103/api/market_display", null, new Response.Listener<JSONArray>() {
+        JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, utilities.ip+"market_display", null, new Response.Listener<JSONArray>() {
             JSONObject jsonObject;
 
             @Override

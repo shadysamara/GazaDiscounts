@@ -2,7 +2,10 @@
     <string name="app_name">GazaDiscounts</string>
     <string name="title_activity_market_page">MarketPage</string>
     <string name="title_add">Add Discount</string>
+    <string name="market_add">Add Market</string>
+    <string name="market_delete">Delete Market</string>
     <string name="title_menu">Products</string>
+    <string name="comments_menu">Approve Comments</string>
     <string name="title_notifications">Notifications</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 

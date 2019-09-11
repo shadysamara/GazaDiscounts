@@ -127,7 +127,7 @@ public class AddProductFragment extends Fragment implements IPickResult {
 
 
 
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, utilities.createurl,
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, utilities.ip+"product_control",
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
